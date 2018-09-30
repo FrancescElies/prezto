@@ -33,16 +33,23 @@ zstyle ':prezto:load' pmodule \
   'history' \
   'directory' \
   'spectrum' \
+  'osx' \
+  'python' \
+  'docker'\
+  'emacs'\
   'utility' \
   'completion' \
-  'prompt'
+  'syntax-highlighting' \
+  # autosuggestions loaded after the syntax-highlighting
+  'autosuggestions' \
+    'prompt'
 
 #
 # Autosuggestions
 #
 
 # Set the query found color.
-# zstyle ':prezto:module:autosuggestions:color' found ''
+zstyle ':prezto:module:autosuggestions:color' found ''
 
 #
 # Completions
