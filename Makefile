@@ -1,2 +1,2 @@
 update:
-  git pull && git submodule update --init --recursive
+	git pull && git submodule update --init --recursive
