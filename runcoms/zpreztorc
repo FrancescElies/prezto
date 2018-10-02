@@ -27,22 +27,25 @@ zstyle ':prezto:*:*' color 'yes'
 # Set the Prezto modules to load (browse modules).
 # The order matters.
 zstyle ':prezto:load' pmodule \
-  'environment' \
-  'terminal' \
-  'editor' \
-  'history' \
-  'directory' \
-  'spectrum' \
-  'osx' \
-  'python' \
-  'docker'\
-  'emacs'\
-  'utility' \
+  'command-not-found' \
   'completion' \
+  'directory' \
+  'docker'\
+  'editor' \
+  'emacs'\
+  'environment' \
+  'fasd' \
+  'history' \
+  'homebrew' \
+  'osx' \
+  'prompt' \
+  'python' \
+  'rsync'\
+  'spectrum' \
+  'terminal' \
+  'utility' \
   'syntax-highlighting' \
-  # autosuggestions loaded after the syntax-highlighting
-  'autosuggestions' \
-    'prompt'
+  'autosuggestions'
 
 #
 # Autosuggestions
