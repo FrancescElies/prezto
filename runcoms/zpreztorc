@@ -38,8 +38,8 @@ zstyle ':prezto:load' pmodule \
   'history' \
   'homebrew' \
   'osx' \
-  # 'contrib-prompt' \
-  # 'prompt' \
+  'contrib-prompt' \
+  'prompt' \
   'python' \
   'rsync'\
   'spectrum' \
