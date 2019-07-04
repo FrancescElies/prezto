@@ -147,9 +147,6 @@ zstyle ':prezto:module:prompt' show-return-val 'yes'
 # Automatically initialize virtualenvwrapper if pre-requisites are met.
 # zstyle ':prezto:module:python:virtualenv' initialize 'yes'
 
-# Conda support
-zstyle ':prezto:module:python' conda-init 'on'
-
 #
 # Ruby
 #
